@@ -1,48 +1,81 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
 }
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #132a22;
 }
-.container{
-    display: flex;
-    font-size: 1.5rem;
-    color: black;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.container {
+  display: flex;
+  font-size: 1.5rem;
+  color: black;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.historico{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #a47958;
-    width: 20rem;
-    height: 40rem;
-    gap: 2rem;
+.historico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a47958;
+  width: 20rem;
+  height: 40rem;
+  gap: 2rem;
 }
-.calc{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 30rem;
-    height: 40rem;
-    background-color: #bb7c49;
-    gap: 2rem;
+.calc {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30rem;
+  height: 40rem;
+  background-color: #bb7c49;
+  gap: 2rem;
 }
-.receive{
-    height: 2rem;
-    width: 5rem;
+img {
+  object-fit: contain;
+  width: 18rem;
 }
-button{
-    background-color: #132a22;
+.receive {
+  height: 2rem;
+  width: 8.5rem;
+}
+h1 {
+  margin-top: 2rem;
+}
+.numeros {
+  display: flex;
+  justify-content: space-between;
+  width: 18rem;
+}
+.operacoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 18rem;
+  height: 10rem;
+}
+button {
+  width: 8rem;
+  height: 3rem;
+  background-color: #132a22;
+  color: white;
+}
+.resultbox {
+  display: flex;
+  justify-content: space-between;
+  width: 17rem;
+  height: 2rem;
+}
+#output {
+  height: 2rem;
+  width: 10rem;
 }
