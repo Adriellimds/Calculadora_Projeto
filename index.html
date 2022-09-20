@@ -19,10 +19,10 @@
                 <input class="receive" id="num2" type="number" />
             </div>
             <div class="operacoes">
-                <button onclick="somar()">Somar</button>
-                <button onclick="sub()">Subtrair</button>
-                <button onclick="mult()">Multiplicar</button>
-                <button onclick="div()">Dividir</button>
+                <button onclick="calc('+')">Somar</button>
+                <button onclick="calc('-')">Subtrair</button>
+                <button onclick="calc('*')">Multiplicar</button>
+                <button onclick="calc('/')">Dividir</button>
             </div>
             <div class="resultbox">
                 <p> Resultado: </p>
@@ -33,7 +33,7 @@
 
         <div class="historico">
             <h1> Histórico </h1>
-
+            <div id="hist"></div>
         </div>
     </div>
     <script src="/Calc.js"></script>
